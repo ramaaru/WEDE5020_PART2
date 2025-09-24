@@ -32,7 +32,7 @@ It empowers local businesses by showcasing services, testimonials, and contact o
 ###  Responsive Design
 - **Breakpoints:**  
   - `768px` → Tablet layout (vertical nav, adjusted spacing).  
-  - `480px` → Mobile layout (smaller text and form fields).  
+  - `320px` → Mobile layout (smaller text and form fields).  
 - Navigation, images, and content adapt seamlessly to screen size.
 
 ---
@@ -41,6 +41,9 @@ It empowers local businesses by showcasing services, testimonials, and contact o
 
 ### v1.0 – Initial Version
 - Added basic HTML pages (Home, About, Services, Testimonials, Contact).
+- SEE  RESPOSIVE DESIGN  screenshots.
+- ./images/mobile 320px
+- ./images/tablet 768px
 
 ### v1.1 – Semantic Improvements
 - Added `<header>`, `<main>`, `<section>`, `<article>`, `<figure>`, `<footer>`.
@@ -67,3 +70,4 @@ It empowers local businesses by showcasing services, testimonials, and contact o
 
 ##  Author
 Urban Connect Tech Website – Developed by **Rilise Ramaru**
+
