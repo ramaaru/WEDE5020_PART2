@@ -63,6 +63,9 @@ It empowers local businesses by showcasing services, testimonials, and contact o
 -Maintained original layout and structure — no new sections or content added.
 -Verified visual consistency across Chrome, Edge, and mobile viewports.
 
+### v1.4 - Responsive Google Map Enhancement
+-Improved the embedded Google Map layout for full responsiveness across all screen sizes.
+
 
 ---
 
@@ -76,5 +79,6 @@ It empowers local businesses by showcasing services, testimonials, and contact o
 
 ##  Author
 Urban Connect Tech Website – Developed by **Rilise Ramaru**
+
 
 
