@@ -57,6 +57,12 @@ It empowers local businesses by showcasing services, testimonials, and contact o
 - Created responsive layout with media queries.
 - Styled forms, buttons, and navigation.
 - Enhanced interactivity with hover/focus states.
+ ### v1.3 - About page Enhancement
+-Improved About page image layout to be fully responsive (auto-scaling on all devices).
+-Added .about-image CSS class with max-width: 100%; height: auto; for smooth resizing.
+-Maintained original layout and structure — no new sections or content added.
+-Verified visual consistency across Chrome, Edge, and mobile viewports.
+
 
 ---
 
@@ -70,4 +76,5 @@ It empowers local businesses by showcasing services, testimonials, and contact o
 
 ##  Author
 Urban Connect Tech Website – Developed by **Rilise Ramaru**
+
 
