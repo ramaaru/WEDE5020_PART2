@@ -70,15 +70,21 @@ It empowers local businesses by showcasing services, testimonials, and contact o
 ---
 
 ##  References
-- [MDN Web Docs – HTML Elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
-- [MDN Web Docs – CSS Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference)
-- [W3C Accessibility Guidelines](https://www.w3.org/WAI/standards-guidelines/)
-- [W3Schools HTML & CSS Tutorials](https://www.w3schools.com)
+-MDN Web Docs. (2025, October 20). HTML Elements Reference. Retrieved from MDN Web Docs: https://developer.mozilla.org/en-US/docs/Web/HTML/Element
+
+MDN Web Docs. (2025, October 20). CSS Reference. Retrieved from MDN Web Docs: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference
+
+World Wide Web Consortium (W3C). (2025, October 21). Web Accessibility Standards and Guidelines (WAI). Retrieved from W3C: https://www.w3.org/WAI/standards-guidelines/
+
+W3Schools. (2025, September 12). CSS Class Reference. Retrieved from W3Schools: https://www.w3schools.com/cssref/pr_class_cursor.php
+
+W3Schools. (2025, September 16). How to Create a Mobile Navigation Bar. Retrieved from W3Schools: https://www.w3schools.com/howto/howto_js_mobile_navbar.asp
 
 ---
 
 ##  Author
 Urban Connect Tech Website – Developed by **Rilise Ramaru**
+
 
 
 
