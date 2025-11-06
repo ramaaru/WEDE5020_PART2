@@ -57,17 +57,34 @@ It empowers local businesses by showcasing services, testimonials, and contact o
 - Created responsive layout with media queries.
 - Styled forms, buttons, and navigation.
 - Enhanced interactivity with hover/focus states.
+ ### v1.3 - About page Enhancement
+-Improved About page image layout to be fully responsive (auto-scaling on all devices).
+-Added .about-image CSS class with max-width: 100%; height: auto; for smooth resizing.
+-Maintained original layout and structure — no new sections or content added.
+-Verified visual consistency across Chrome, Edge, and mobile viewports.
+
+### v1.4 - Responsive Google Map Enhancement
+-Improved the embedded Google Map layout for full responsiveness across all screen sizes.
+
 
 ---
 
 ##  References
-- [MDN Web Docs – HTML Elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
-- [MDN Web Docs – CSS Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference)
-- [W3C Accessibility Guidelines](https://www.w3.org/WAI/standards-guidelines/)
-- [W3Schools HTML & CSS Tutorials](https://www.w3schools.com)
+-MDN Web Docs. (2025, October 20). HTML Elements Reference. Retrieved from MDN Web Docs: https://developer.mozilla.org/en-US/docs/Web/HTML/Element
+
+MDN Web Docs. (2025, October 20). CSS Reference. Retrieved from MDN Web Docs: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference
+
+World Wide Web Consortium (W3C). (2025, October 21). Web Accessibility Standards and Guidelines (WAI). Retrieved from W3C: https://www.w3.org/WAI/standards-guidelines/
+
+W3Schools. (2025, September 12). CSS Class Reference. Retrieved from W3Schools: https://www.w3schools.com/cssref/pr_class_cursor.php
+
+W3Schools. (2025, September 16). How to Create a Mobile Navigation Bar. Retrieved from W3Schools: https://www.w3schools.com/howto/howto_js_mobile_navbar.asp
 
 ---
 
 ##  Author
 Urban Connect Tech Website – Developed by **Rilise Ramaru**
+
+
+
 
