@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Urban Connect Tech - Enquiry Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="logo-title">
+      <img src="../images/urban-tech-logo.png" alt="Urban Connect Logo">
+    </div>
+    <nav>
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="testimonials.html">Testimonials</a></li>
+        <li><a href="contact.html" >Contact Us</a></li>
+         <li><a href="/pages/enquiry.html" aria-current="page">Enquiry Form/a></li>
+      </ul>
+    </nav>
+  </header>
+<section class="enquiry-section">
+    <div class="company-info">
+    <p><strong>Urban Connect Tech</strong></p>
+    <p>54 Kerk St, Polokwane Central<br>
+       Polokwane, 0700, South Africa</p>
+    <p>Email: <a href="mailto:info@urbanconnecttech.com">info@urbanconnecttech.com</a><br>
+       Phone: +27 79 759 3956</p>
+  </div>
+  <h2>Submit an Enquiry</h2>
+  <p>If you have any questions or would like to know more about our services, please fill in the form below. Our team will respond as soon as possible.</p>
+    
+
+  <form action="mailto:info@urbanconnecttech.com" method="post" enctype="text/plain" class="enquiry-form">
+    <!-- Personal Information -->
+    <fieldset>
+      <legend>Your Information</legend>
+
+      <label for="full-name">Full Name:</label>
+      <input type="text" id="full-name" name="Full Name" placeholder="Enter your full name" required>
+
+      <label for="email">Email Address:</label>
+      <input type="email" id="email" name="Email" placeholder="Enter your email address" required>
+
+      <label for="phone">Phone Number:</label>
+      <input type="tel" id="phone" name="Phone" placeholder="+27 79 123 4567" pattern="[0-9+ ]{8,15}" required>
+
+      <label for="city">City:</label>
+      <input type="text" id="city" name="City" placeholder="Enter your city" required>
+
+      <label for="region">Region/Province:</label>
+      <input type="text" id="region" name="Region" placeholder="Enter your region or province" required>
+
+      <label for="zip">ZIP / Postal Code:</label>
+      <input type="text" id="zip" name="ZIP Code" placeholder="Enter your postal code" pattern="[0-9]{4,6}" required>
+
+      <label for="country">Country:</label>
+      <select id="country" name="Country" required>
+        <option value="">-- Select Your Country --</option>
+        <option value="South Africa">South Africa</option>
+        <option value="United States">United States</option>
+        <option value="United Kingdom">United Kingdom</option>
+        <option value="Canada">Canada</option>
+        <option value="Australia">Australia</option>
+      </select>
+    </fieldset>
+
+    <!-- Enquiry Details -->
+    <fieldset>
+      <legend>Enquiry Details</legend>
+
+      <label for="subject">Subject:</label>
+      <select id="subject" name="Subject" required>
+        <option value="">-- Select a Topic --</option>
+        <option value="web-development">Web Development</option>
+        <option value="it-support">IT Support</option>
+        <option value="digital-consulting">Digital Consulting</option>
+        <option value="other">Other</option>
+      </select>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="Message" rows="6" placeholder="Type your enquiry here..." required></textarea>
+    </fieldset>
+
+    <div class="form-actions">
+      <button type="submit">Submit Enquiry</button>
+      <button type="reset">Reset Form</button>
+    </div>
+  </form>
+</section>
+<footer>
+    <p><strong>Urban Connect Tech</strong></p>
+    <p>&copy; 2025 Urban Connect Tech. All rights reserved.</p>
+    <p>
+      <a href="/pages/enquiry.html">About Us</a> | 
+      <a href="/pages/contact.html">Contact Us</a>
+    </p>
+  </footer>
+</body>
+</html>
