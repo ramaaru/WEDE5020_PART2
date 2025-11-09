@@ -3,13 +3,20 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="title" content="Urban Connect Tech | Digital Solutions & Web Development">
+ <meta name="description" content="Urban Connect Tech specializes in web development, IT consulting, and digital transformation services for small and medium-sized businesses. Empowering local enterprises through smart technology solutions.">
+ <meta name="keywords" content="Urban Connect Tech, web development, IT consulting, digital marketing, tech support, business website design, Polokwane IT, South Africa digital services, small business technology">
   <title>Urban Connect Tech - About Us</title>
   <link rel="stylesheet" href="style.css">
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+  />
 </head>
 <body>
   <header class="site-header">
     <div class="logo-title">
-      <img src="../images/logo.png" alt="Urban Connect Logo">
+      <img src="../images/urban-tech-logo.png" alt="Urban Connect Logo" height="120" width="100">
     </div>
     <nav>
       <ul>
@@ -26,8 +33,12 @@
   <main>
     <h1>About Urban Connect Tech</h1>
     <aside class="about image">
-      <img src="../images/gettyimages-2206387866-612x612.jpg" alt="Support service illustration" width="400">
+      <img src="../images/Digital-business-growth (2).jpg" class="thumbnail" alt="Support service illustration" width="400">
+      <div id="lightbox"><img id="lightboxImage" src="" alt="Expanded view of selected service image" title="Expanded Service Image Preview"></div>
+
     </aside>
+     <button class="accordion">About Us</button>
+        <div class="panel">
     <article>
       <p><strong>Urban Connect Tech</strong> is dedicated to empowering local businesses. 
       We specialize in intuitive websites and robust tech support tailored for small businesses.</p>
@@ -35,14 +46,35 @@
       digital presence, enabling them to thrive in the online marketplace.</p>
     </article>
   </main>
-
+    <!-- Learn More Button -->
+      <div class="about-cta">
+        <a href="services.html" class="btn-learn">Learn More About Our Services</a>
+      </div>
   <footer>
     <p><strong>Urban Connect Tech</strong></p>
+     <div id="date-time" class="date-time"></div>
     <p>&copy; 2025 Urban Connect Tech. All rights reserved.</p>
     <p>
-      <a href="privacy.html">Privacy Policy</a> | 
-      <a href="terms.html">Terms of Service</a>
+      <a href="/pages/enquiry.html">About Us</a> | 
+      <a href="/pages/contact.html">Contact Us</a>
     </p>
+    
+    <div class="social-links">
+      <a href="https://www.facebook.com/" target="_blank" aria-label="Facebook">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="https://twitter.com/" target="_blank" aria-label="Twitter">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a href="https://www.linkedin.com/" target="_blank" aria-label="LinkedIn">
+        <i class="fab fa-linkedin-in"></i>
+      </a>
+      <a href="https://www.instagram.com/" target="_blank" aria-label="Instagram">
+        <i class="fab fa-instagram"></i>
+      </a>
+    </div>
+    <script src="javascript.js"> </script>
   </footer>
 </body>
 </html>
+
