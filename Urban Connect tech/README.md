@@ -12,6 +12,9 @@ It empowers local businesses by showcasing services, testimonials, and contact o
 - `/pages/testimonials.html` → Testimonials
 - `/pages/contact.html` → Contact Us
 -`/pages/style.css` → style
+- `/pages/javascript.js` → javascript
+- `/pages/ Enquiry.html` → Enquiry Form
+
 
 ---
 
@@ -34,6 +37,14 @@ It empowers local businesses by showcasing services, testimonials, and contact o
   - `768px` → Tablet layout (vertical nav, adjusted spacing).  
   - `320px` → Mobile layout (smaller text and form fields).  
 - Navigation, images, and content adapt seamlessly to screen size.
+
+- states.
+-**Interactive lightbox:** for services images.
+-**Accordion section:** in the About page.
+-**Integrated Google Map:** with responsive iframe.
+-**Enquiry form:** with JavaScript validation and country selection.
+-**Live time and date:** display in footer.
+-**Social media icons:** (Facebook, Twitter, LinkedIn, Instagram) using Font Awesome
 
 ---
 
@@ -70,6 +81,35 @@ It empowers local businesses by showcasing services, testimonials, and contact o
 
 -It is designed using HTML5 and CSS3, following accessibility and usability standards, ensuring users can submit structured information efficiently.
 
+### v1.6 – Accordion and Interaction Upgrade
+
+## Accordion Added (About Page)
+
+-Implemented collapsible sections for displaying “Core Values.”
+-Accordion expands smoothly and closes intuitively.
+-Styled with blue color scheme and subtle transitions.
+-Added “Learn More” button linking to Services page.
+
+## UI Enhancements
+
+-Improved button hover effects.
+-Enhanced responsive spacing and font scaling.
+-Unified interactive component behavior across all pages.
+
+###  v1.7 – Social Media Integration
+-  Added **social media icons** (Facebook, Twitter, LinkedIn, Instagram) in the footer across all pages.
+- Implemented consistent blue/white theme for icons.
+- Added hover animations and accessibility labels for screen readers.
+- Updated layout to remain responsive and balanced on mobile devices.
+
+### **v1.8 – Live Time and Date**
+-  Added a **real-time date and clock display** in the footer (About & service page).
+- Updates every second using JavaScript `setInterval()`.
+- Styled with semi-transparent background for readability.
+- Improves interactivity and dynamic user experience.
+
+
+
 
 ---
 
@@ -88,6 +128,7 @@ W3Schools. (2025, September 16). How to Create a Mobile Navigation Bar. Retrieve
 
 ##  Author
 Urban Connect Tech Website – Developed by **Rilise Ramaru**
+
 
 
 
