@@ -65,6 +65,10 @@ It empowers local businesses by showcasing services, testimonials, and contact o
 
 ### v1.4 - Responsive Google Map Enhancement
 -Improved the embedded Google Map layout for full responsiveness across all screen sizes.
+### v1.5 – Enquiry Form
+-The Enquiry Form was developed to enable visitors to easily contact Urban Connect Tech for business inquiries, service requests, or partnership opportunities.
+
+-It is designed using HTML5 and CSS3, following accessibility and usability standards, ensuring users can submit structured information efficiently.
 
 
 ---
@@ -84,6 +88,7 @@ W3Schools. (2025, September 16). How to Create a Mobile Navigation Bar. Retrieve
 
 ##  Author
 Urban Connect Tech Website – Developed by **Rilise Ramaru**
+
 
 
 

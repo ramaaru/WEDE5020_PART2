@@ -335,3 +335,136 @@ footer a:hover {
   border: 0;
 }
 
+
+/* === Enquiry Form Section === */
+.enquiry-section {
+  max-width: 750px;
+  margin: 50px auto;
+  padding: 30px;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.enquiry-section h2 {
+  text-align: center;
+  color: #005bbb;
+  margin-bottom: 15px;
+}
+
+.enquiry-section p {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #555;
+  font-size: 1rem;
+}
+
+.enquiry-form fieldset {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.enquiry-form legend {
+  font-weight: bold;
+  color: #005bbb;
+  padding: 0 10px;
+}
+
+.enquiry-form label {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-weight: 600;
+  color: #333;
+}
+
+.enquiry-form input,
+.enquiry-form select,
+.enquiry-form textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-bottom: 15px;
+  font-size: 1rem;
+  transition: border 0.3s, box-shadow 0.3s;
+}
+
+.enquiry-form input:focus,
+.enquiry-form select:focus,
+.enquiry-form textarea:focus {
+  border-color: #3498db;
+  box-shadow: 0 0 6px rgba(52, 152, 219, 0.5);
+  outline: none;
+}
+
+.form-actions {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.form-actions button {
+  background: #005bbb;
+  color: white;
+  border: none;
+  padding: 12px 30px;
+  margin: 5px;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.form-actions button:hover {
+  background: #003f7f;
+}
+
+/* Responsive Enquiry Form */
+@media (max-width: 768px) {
+  .enquiry-section {
+    margin: 20px;
+    padding: 20px;
+  }
+}
+
+/* --- Company Info --- */
+.company-info {
+  position: relative;
+  text-align: left;
+  color: #333;
+  font-size: 0.95rem;
+  margin-top: 30px;
+  border-top: 1px solid #ddd;
+  padding-top: 15px;
+}
+
+.company-info p {
+  margin: 5px 0;
+}
+
+.company-info a {
+  color: #005bbb;
+  text-decoration: none;
+}
+
+.company-info a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive Enquiry Form */
+@media (max-width: 768px) {
+  .enquiry-section {
+    margin: 20px;
+    padding: 20px;
+  }
+
+  .company-info {
+    text-align: center;
+  }
+}
+
+
+
