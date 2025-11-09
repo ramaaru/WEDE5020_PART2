@@ -3,13 +3,18 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="title" content="Contact Urban Connect Tech | Get in Touch">
+  <meta name="description" content="Contact Urban Connect Tech for IT support, web development, and consulting. Visit us in Polokwane or reach out via email or phone.">
+  <meta name="keywords" content="Urban Connect Tech contact, IT support Polokwane, tech consulting South Africa, web development inquiry, business technology services">
   <title>Urban Connect Tech - Contact Us</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
+
 <body>
   <header class="site-header">
     <div class="logo-title">
-      <img src="../images/logo.png" alt="Urban Connect Logo">
+      <img src="../images/urban-tech-logo.png" alt="Urban Connect Logo">
     </div>
     <nav>
       <ul>
@@ -18,14 +23,14 @@
         <li><a href="services.html">Services</a></li>
         <li><a href="testimonials.html">Testimonials</a></li>
         <li><a href="contact.html" aria-current="page">Contact Us</a></li>
-         <li><a href="/pages/enquiry.html">Enquiry Form</a></li>
+        <li><a href="enquiry.html">Enquiry Form</a></li>
       </ul>
     </nav>
   </header>
 
   <main>
     <h1>Contact Us</h1>
-    <p>We’d love to hear from you! Reach out to us via phone, email, or the form below.</p>
+    <p>We’d love to hear from you! Reach out via phone, email, or the form below.</p>
 
     <section>
       <h2>Get In Touch</h2>
@@ -35,30 +40,33 @@
       <p><strong>Business Hours:</strong> Mon–Fri: 08:00 – 19:00</p>
     </section>
 
-     <section class="map section">
+    <section class="map-section">
       <h2>Find Us</h2>
-      <div class="map container">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7295.213090422593!2d29.44430709385141!3d-23.903566814264558!2m3!1f0!2f0!3f0!3m2!
-      1i1024!2i768!4f13.1!3m3!1m2!1s0x1ec6d827a6d3019f%3A0xac207bf46b6745c8!2sRosebank%20College%20Polokwane%20Campus!5e0!3m2!1sen!2sza!4v1758626489346!5m2!1sen!2sza" 
-      width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <div class="map-container">
+        <iframe
+        title="Urban Connect Tech location on Google Maps"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3647.3978232694876!2d29.447712675636385!3d-23.91096297856118!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1ec6d827a6d3019f%3A0xac207bf46b6745c8!2sRosebank%20College%20Polokwane%20Campus!5e0!3m2!1sen!2sza!4v1762672835873!5m2!1sen!2sza"
+         width="600" 
+         height="450" style="border:0;" 
+         allowfullscreen="" loading="lazy" 
+         ></iframe>
       </div>
     </section>
-
 
     <section>
       <h2>Send Us a Message</h2>
       <form>
         <label for="name">Name:</label>
-        <input type="text" id="name" name="name" placeholder="enter your name" required>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required>
 
         <label for="phone">Phone:</label>
-        <input type="tel" id="phone" name="phone" placeholder="enter your phone number">
+        <input type="tel" id="phone" name="phone" placeholder="Enter your phone number">
 
         <label for="email">Email:</label>
-        <input type="email" id="email" name="email" placeholder="enter your email" required>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
 
         <label for="message">Message:</label>
-        <textarea id="message" name="message" rows="6" required></textarea>
+        <textarea id="message" name="message" rows="6" placeholder="Your message..." required></textarea>
 
         <button type="submit">Send Message</button>
       </form>
@@ -67,11 +75,23 @@
 
   <footer>
     <p><strong>Urban Connect Tech</strong></p>
+    <div id="date-time" class="date-time"></div>
     <p>&copy; 2025 Urban Connect Tech. All rights reserved.</p>
     <p>
-     <a href="/pages/about.html">About Us</a> | 
-      <a href="/pages/contact.html">Contact Us</a>
+      <a href="about.html">About Us</a> |
+      <a href="contact.html">Contact Us</a>
     </p>
+
+    <div class="social-links">
+      <a href="https://www.facebook.com/" aria-label="Facebook" target="_blank"><i class="fab fa-facebook-f"></i></a>
+      <a href="https://twitter.com/" aria-label="Twitter" target="_blank"><i class="fab fa-twitter"></i></a>
+      <a href="https://www.linkedin.com/" aria-label="Linkedin" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+      <a href="https://www.instagram.com/" aria-label="Instagram" target="_blank"><i class="fab fa-instagram"></i></a>
+    </div>
   </footer>
+
+  <script src="javascript.js"></script>
 </body>
 </html>
+
+
